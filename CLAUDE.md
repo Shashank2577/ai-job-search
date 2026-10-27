@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Shashank Saxena
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Shashank Saxena, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
+<!-- Full structured profile: .claude/skills/job-application-assistant/01-candidate-profile.md -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Shashank Saxena
+- **Location:** Noida, India (open to remote-global and relocation)
+- **Languages:** English (fluent), Hindi (native)
+- **Status:** Employed (Principal Architect — AI, Taazaa Inc); open to new opportunities
+- **LinkedIn headline:** "Principal Architect — AI | Building production LLM systems (agents, MCP, RAG)"
+- **Contact:** shash2577@gmail.com · +91 9899304189 · linkedin.com/in/shashank2577 · github.com/Shashank2577 · shashanksaxena-info.vercel.app
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Tech in Mechanical Engineering** (2010-2014) - Hindustan College of Science and Technology (72%)
+  - Transitioned to software engineering after graduation; ~12 years in industry.
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Principal Architect — AI** (2024 - Present) - **Taazaa Inc** (Noida, India; reports to CTO; ~400-engineer org)
+  - Led org-wide migration of ~400 engineers from GitHub Copilot to Claude Code in ~1 month → ~25% productivity gain (story-point velocity). Delivered 8 enablement sessions (Claude Code, harness/loop engineering, LLM-tooling comparison).
+  - Introduced Spec-Driven Development into the SDLC (epic+story → specs → implementation), keeping AI output consistent across many parallel devs; built custom Claude Code skills + AI scaffolding for Node/Java/Python (~15 active projects).
+  - Built a multi-IDE AI-coding analytics platform (VS Code/IntelliJ/Cursor); architected a 16-module Spring Boot SaaS accelerator (264+ tests, 4 SDKs); won ~6 client engagements via AI rapid-prototyping demos: Dale Ventures (CRM + private notetaker), Innago (real estate), ASG/Asset Strategies Group (lease + equipment management), Dublin municipality (tax filing).
+  - Optimized a production Python LLM research pipeline: ~65% faster (from 20+ min) and <50% of prior cost, while fixing correctness/guardrail defects (wrong-subject research; fiction mislabeled as real events).
+  - Incubated 5 production AI products (see Independent Projects in the full profile); built Dayko, a Taazaa super-app (CRM + ticketing + 15+ SaaS apps).
+- **Technical Specialist / Technical Architect** (07/2021 - 2024) - **Coforge Ltd** (Noida, India)
+  - Architected multi-tenant HRMS SaaS (Umantis/Haufe, DACH): Java 17 microservices on AWS EKS; led a 12-member team; GDPR/multi-tenant isolation.
+- **Senior Software Engineer** (08/2019 - 06/2021) - **AKQA** (Gurgaon, India)
+  - Client-facing engineer for Richemont luxury e-commerce (Panerai, Montblanc, Van Cleef & Arpels) on AEM + Java + AWS.
+- **Application Developer** (05/2016 - 08/2019) - **IBM India** (Noida)
+  - Real-time flagging/reporting system for IBM US/Canada field parts operations (Java, Spring Boot, AWS).
+- **System Engineer** (09/2014 - 05/2016) - **Tata Consultancy Services** (India)
+  - Java developer on regulated Lloyds Bank (UK) systems.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Java (8–21) & Spring Boot microservices, LLM application architecture, multi-agent orchestration, MCP, RAG (pgvector), AWS/EKS/Kubernetes, multi-tenant SaaS
+- **Secondary:** Go, TypeScript/Node, Python, React/Next.js, gRPC, Kafka, Elasticsearch, Redis, Terraform
+- **Domain:** Enterprise & regulated software (banking, HRMS/GDPR, luxury e-commerce), AI governance (EU AI Act/AIBOM), observability (OTel, eBPF, ClickHouse)
+- **Software:** Claude Code, GitHub Copilot, Cursor, Docker, Helm, GitHub Actions, AEM
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **AWS Certified Solutions Architect — Associate** (credential expired; listed without date)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None on record.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None on record.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred (no formal assessment). Full version: 02-behavioral-profile.md -->
+- **Builder-leader** - Sets technical strategy, then proves it in production code.
+- **Ships to production** - Values published charts, tests, SDKs, live demos over demos/slideware.
+- **Strengths:** Reliability (cited in 2 LinkedIn recommendations), strategy-plus-execution, client/executive-facing, deep + broad technical range.
+- **Growth areas:** Breadth vs. focus (many parallel builds); quantifying AI-transformation impact.
+- **Thrives in:** High-autonomy, outcome-oriented, low-bureaucracy environments that ship and keep him hands-on.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building production AI/LLM systems (agents, MCP, RAG) hands-on at principal level.
+- High autonomy and end-to-end ownership; customer-/executive-facing impact; comp & seniority growth.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Applied AI / LLM product companies:** AI-first startups, Anthropic/OpenAI customers & partners, forward-deployed teams
+- **Enterprise SaaS & platform:** multi-tenant SaaS, developer-tools/productivity, cloud-native platforms
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None hard — open to a wide range. Treat as friction signals, not auto-rejects: 100% people-management with no coding; heavy committee-driven process; legacy/maintenance-only with no AI or greenfield.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

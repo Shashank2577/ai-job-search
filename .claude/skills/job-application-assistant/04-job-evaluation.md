@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** LLM application architecture, multi-agent orchestration, MCP servers, RAG (pgvector/embeddings), Java/Spring Boot microservices, AWS + Kubernetes/EKS, multi-tenant SaaS architecture, agentic SDLC (Claude Code/Copilot/Cursor), Go & TypeScript/Node, observability (OTel/eBPF)
+**Moderate match areas:** Python (production-capable, not primary), evals/AI-observability tooling, front-end (React/Next.js), AI governance/compliance (EU AI Act/AIBOM), team leadership (led 12)
+**Weak match areas:** Formal ML/data-science (training models, MLOps pipelines, deep-learning research), mobile development, non-JVM/Go backend ecosystems (e.g. .NET, Rails), formal people-management at scale (director/VP org design)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Principal/architect-level enterprise software delivery (~12 yrs), production AI/LLM product-building, multi-tenant SaaS, client-facing/forward-deployed work, regulated domains (banking, HRMS/GDPR, luxury e-commerce), leading engineering teams
+**Moderate:** Org-wide AI transformation leadership (current, ~2+ yrs), developer-productivity/analytics products, AI governance
+**Entry-level:** Formal data-science/ML-research roles, pure engineering-management/director tracks, dedicated DevRel
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,13 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+Shashank is location-flexible: remote-first (global) AND open to relocation. Relocation is NOT a deal-breaker.
+- Remote (any timezone, or overlapping IST): PASS
+- India-based (Noida/NCR/Bangalore), on-site or hybrid: PASS
+- Relocation to UAE/Gulf, EU, UK, Norway, Sweden, Canada, USA: PASS
+- Relocation elsewhere with sponsorship: PASS (flag for confirmation)
+- On-site-only role with NO remote/relocation support in a location he can't reach: FAIL
+- Visa/sponsorship note: most overseas relocations require employment visa sponsorship; UAE is Golden-Visa eligible via the AI-specialist route. FLAG postings that explicitly exclude sponsorship.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +66,22 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Stay hands-on building production AI/LLM systems (agents, MCP, RAG) at a senior/principal level — not drift into pure management.
+- Principal/Staff/Architect scope with real ownership and autonomy over technical direction.
+- Roles that combine deep engineering with customer- or executive-facing impact (forward-deployed / applied AI / AI transformation).
+- Compensation and seniority growth; access to frontier AI work.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether he *can* do the tasks, but whether the tasks will *energize* him. Consider:
+- Tasks that energize: shipping production AI features, architecting greenfield systems, owning a roadmap end-to-end, working directly with customers/executives, high-autonomy build work
+- Tasks that drain: 100% people-management with no coding, heavy committee-driven process, legacy maintenance with no AI/greenfield
+- Non-task factors: leadership style, degree of autonomy, whether the org actually ships, comp/seniority
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Life situation alignment:**
+- **Security**: Currently employed (Principal Architect, Taazaa); can be selective — optimize for fit and upside, not just any move.
+- **Flexibility**: Location-flexible (remote or relocation). Visa sponsorship needed for most overseas moves.
+- **Professional development**: Prioritize frontier AI exposure, principal-level scope, and orgs with strong engineering cultures.
+
+**Deal-breakers:** None hard — Shashank is open to a wide range. Treat the "friction" items above as scoring signals, not automatic rejections.
 
 ### 6. Salary Benchmark (Optional)
 

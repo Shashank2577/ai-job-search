@@ -105,12 +105,19 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+<!-- Profile statement templates by role type. Tailor the bracketed hooks per posting. -->
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Forward Deployed / Applied AI Engineer roles:**
+> Principal Architect with ~12 years shipping production systems into banks, HRMS, e-commerce, and ERP — now building production LLM systems (multi-agent platforms, MCP servers, RAG pipelines) hands-on. I do the two things forward-deployed work demands: earn trust in a customer's room, and ship working software inside their messy real-world stack the same week. [Tie to the customer/domain named in the posting.]
+
+**For Principal / AI Architect roles:**
+> Principal Architect reporting to the CTO, leading organization-wide AI transformation while personally shipping 5 production AI platforms (Kubernetes observability with an 11-agent RCA swarm, meeting-intelligence SaaS, AI governance tooling, autonomous sales agents) plus 6 MCP servers. Rare dual profile — enterprise architecture credentials (multi-tenant SaaS, AWS, regulated domains, 12-member teams) and hands-on AI engineering. I set the strategy, then prove it in code. [Tie to the specific platform/scale in the posting.]
+
+**For Staff/Principal Backend & Platform roles:**
+> Staff/Principal-level engineer with ~12 years on JVM microservices at scale — Java 8–21, Spring Boot, gRPC, Kafka on AWS EKS — across regulated domains (UK banking, DACH HRMS/GDPR, luxury e-commerce). Architected a 16-module Spring Boot SaaS accelerator (264+ tests, 4 SDKs) and now build production AI/LLM systems on the same platform foundations. [Tie to the posting's stack/scale.]
+
+**For Engineering Leadership / AI Transformation roles:**
+> Engineering leader who stays hands-on: led a 12-member team building a multi-tenant DACH HRMS, and now own org-wide AI transformation reporting to the CTO — migrated ~400 engineers from GitHub Copilot to Claude Code in ~1 month for a ~25% productivity gain, backed by 8 enablement sessions, a Spec-Driven-Development pipeline, and per-team measurement. I lead by shipping the reference implementation, not just the strategy deck. [Tie to the org's AI maturity/goals in the posting.]
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

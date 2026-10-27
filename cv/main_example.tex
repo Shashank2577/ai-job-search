@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example / master CV - Shashank Saxena
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -18,24 +17,25 @@
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Shashank Saxena - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Shashank}{Saxena}
+\address{Noida, India}{Open to remote \& relocation}{}
+\phone[mobile]{+91 9899304189}
+\email{shash2577@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/shashank2577}{LinkedIn}, \href{https://github.com/Shashank2577}{GitHub}, \href{https://shashanksaxena-info.vercel.app}{Portfolio}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Principal Architect with $\sim$12 years shipping production systems into banks, HRMS, e-commerce, and ERP --- now leading organization-wide AI transformation while personally building production LLM systems: multi-agent platforms, MCP servers, RAG pipelines, and AI governance tooling. Rare dual profile: enterprise architecture credentials (multi-tenant SaaS, AWS, regulated domains, 12-member teams) and hands-on AI product engineering --- 5 production platforms shipped. I set the strategy, then prove it in code.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{AI / LLM Engineering}: LLM application architecture, multi-agent orchestration (35+ agents in production), MCP (6 servers shipped), RAG (pgvector, embeddings, HNSW), prompt engineering \& governance (AIBOM / EU AI Act), evals \& AI observability; Anthropic / OpenAI / Gemini APIs, LangGraph, Vercel AI SDK, LiteLLM.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Agentic SDLC}: Claude Code, GitHub Copilot, Cursor, autonomous agents; playbooks, standards, and adoption measurement across engineering teams.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Enterprise \& Cloud}: AWS (EKS, Lambda, SQS/SNS, DynamoDB, Step Functions, API Gateway, CloudWatch, X-Ray), Kubernetes \& Helm, Docker, Terraform, GitHub Actions; OTel \& eBPF observability; SSO/RBAC/OPA/KMS; multi-tenant SaaS.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Languages \& Backend}: Java (8--21), Go, TypeScript/Node, Python; Spring Boot microservices, gRPC, Kafka, PostgreSQL, Elasticsearch, Redis, ClickHouse.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Customer-Facing \& Leadership}: Executive/CTO advisory, client discovery \& scoping, POCs \& pilots, team leadership (12 engineers), enablement \& training.
 
 \end{itemize}
 
@@ -76,34 +76,64 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024--Present}{Principal Architect --- AI}{Taazaa Inc}{Noida, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Migrated $\sim$400 engineers from GitHub Copilot to Claude Code in $\sim$1 month, driving a $\sim$25\% productivity gain (story-point velocity); pioneered and owned the rollout, delivering 8 org-wide enablement sessions on Claude Code, harness \& loop engineering, and comparative LLM tooling.
+    \item Introduced Spec-Driven Development into the SDLC (epic + story $\rightarrow$ specs $\rightarrow$ implementation), keeping AI output consistent across many parallel developers; built custom Claude Code skills and AI scaffolding for Node.js/Java/Python now powering $\sim$15 active projects.
+    \item Built a multi-IDE AI-coding analytics platform (VS Code, IntelliJ, Cursor) giving leadership adoption, acceptance-rate, and impact data --- the category LinearB/DX charge for, with IDE coverage they don't ship.
+    \item Architected a Spring Boot SaaS accelerator: 16 production modules (multi-tenancy, RBAC, audit, pgvector search, LiteLLM AI gateway), 264+ tests, SDKs in React/Node/Python/Java --- cutting engagement bootstrap from weeks to days; won $\sim$6 client engagements via AI rapid-prototyping demos.
+    \item Advise CEO/CTO on AI product incubation; authored the portfolio strategy adopted by the engineering core and incubated 5 products to production grade.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2021--2024}{Technical Specialist / Technical Architect}{Coforge Ltd}{Noida, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Architected a multi-tenant talent-management HRMS SaaS (Umantis / Haufe Group, DACH market): Java 17 microservices on AWS EKS with gRPC, Eureka, Kafka \& ActiveMQ, Elasticsearch, MySQL/PostgreSQL, Redis.
+    \item Led a 12-member engineering team across solution design, code review, POC evaluation, and mentoring.
+    \item Implemented security and GDPR-compliance practices for multi-tenant data isolation across DACH enterprise customers.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2019--2021}{Senior Software Engineer}{AKQA}{Gurgaon, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Client-facing engineer for Richemont luxury e-commerce (Panerai, Montblanc, Van Cleef \& Arpels) on AEM (OSGi/Sling/JCR) + Java 8 microservices + AWS; owned architecture and direct client relationships.
+    \item Delivered the Panerai global e-commerce platform (16-month program): personalization, payments, and inventory integrations.
 \end{itemize}}}
 
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2016--2019}{Application Developer}{IBM India}{Noida, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built the real-time flagging and reporting system used daily by IBM field engineers across US/Canada parts operations --- turnaround-time calculation and cost-loss tracking (Java, Spring Boot, AWS).
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2014--2016}{System Engineer}{Tata Consultancy Services}{India}{}{\vspace{1pt}
+\begin{itemize}
+    \item Java developer on regulated UK retail-banking systems (Lloyds Bank) --- first exposure to compliance-grade delivery.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED AI PROJECTS & PRODUCTS
+% ============================================================
+
+\section{Selected AI Projects \& Products}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{OBSERVE} (\href{https://observe.sovix.xyz}{observe.sovix.xyz}) --- Self-hosted AI-first Kubernetes observability. One Helm install bundles metrics/logs/traces/eBPF (Beyla, Tetragon) with an 11-agent AI root-cause swarm and an MCP server; chart published to GHCR with EKS/GKE/AKS installers.
+\item \textbf{Prompture} --- AI prompt capture \& governance (AIBOM for the EU AI Act). Go platform ($\sim$1,200 source files, $\sim$32\% test ratio) matching prompts to git commits via a six-signal engine; OPA, KMS, SSO/RBAC, Python + TS SDKs.
+\item \textbf{Spreix Notetaker} --- Multi-tenant meeting-intelligence SaaS. Bots join Meet/Teams/Zoom; 35+ context-aware agents, MCP server, 18 Playwright suites, Helm on AWS EKS.
+\item \textbf{ClosePilot} --- Autonomous inbound-sales agent chain with human-in-the-loop gates over Gmail + CRM; MCP server exposing 50+ tools.
 \end{itemize}
 
 % ============================================================
@@ -113,17 +143,17 @@
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
+\item{\cventry{2010--2014}{B.Tech, Mechanical Engineering (72\%)}{Hindustan College of Science and Technology}{India}{}{}}
+\end{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
 
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item AWS Certified Solutions Architect --- Associate.
 \end{itemize}
 
 % ============================================================
@@ -133,27 +163,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item English (fluent), Hindi (native).
 \end{itemize}
 
 % ============================================================
